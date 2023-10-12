@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    
+    "target": "ESNEXT",
+    "module": "ESNext",
+
+    "rootDirs": ["classes/"],
+    "outDir": "build/",
+
+    "moduleResolution": "node",
+
+    "typeRoots": [
+      "./node_modules/@types",
+      "./node_modules/@types/node"
+    ],
+
+    "sourceMap": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+    
+  },
+
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
+
+}
