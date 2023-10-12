@@ -4,7 +4,7 @@
     "target": "ESNEXT",
     "module": "ESNext",
 
-    "rootDirs": ["classes/"],
+    "rootDirs": ["resource/"],
     "outDir": "build/",
 
     "moduleResolution": "node",
@@ -23,7 +23,7 @@
 
   "exclude": [
     "node_modules",
-    "build"
+    "build",
   ]
 
 }

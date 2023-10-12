@@ -1,7 +1,7 @@
 compile = 'bash ./.config/compiler.sh'
 run = 'node ./build/index.js'
 
-hidden = ['package.json', '.config', 'tsconfig.json']
+hidden = ['package.json', '.config', 'tsconfig.json', '.gitignore']
 [packager]
 language = "nodejs"
   [packager.features]
